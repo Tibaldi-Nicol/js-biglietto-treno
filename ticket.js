@@ -38,6 +38,8 @@ const prezzoSistemato = prezzoFinale.toFixed(2);
 //alert("Il prezzo del biglietto è " + prezzoFinale + "€");
 //somma parole e variabili( prezzosistemato)
 alert("Il prezzo del biglietto è: " + prezzoSistemato + "€");
+//semplice messaggio di saluto
+alert("Buon viaggio!");
 
 
 
