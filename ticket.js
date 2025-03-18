@@ -16,6 +16,12 @@ if (eta < 18) {
 
     prezzoFinale = prezzoBase - (prezzoBase * 0.2);
 
-
-} else if (eta >= 65) {
     
+} else if (eta >= 65) {
+    // Sconto del 40% per gli over 65
+    prezzoFinale = prezzoBase - (prezzoBase * 0.4);
+} else {
+    // Nessuno sconto per le altre età
+    prezzoFinale = prezzoBase;
+}
+
